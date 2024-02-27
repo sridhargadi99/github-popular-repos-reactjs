@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.popular-content-style {
+  font-family: 'Lobster';
+  font-size: 32px;
+  font-weight: bold;
+  color: #0f172a;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .popular-content-style {
+    font-size: 45px;
+  }
+}
+.language-filter-item-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .language-filter-item-container {
+    justify-content: center;
+  }
+}
+.repository-item-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .repository-item-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.failure-image-style {
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .failure-image-style {
+    width: 600px;
+  }
+}
+.failure-content-style {
+  font-family: 'Lobster';
+  font-size: 24px;
+  font-weight: bold;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .failure-content-style {
+    font-size: 35px;
+  }
+}
+.loader-style {
+  display: flex;
+  justify-content: center;
+}
